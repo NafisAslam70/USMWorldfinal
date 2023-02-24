@@ -1,0 +1,462 @@
+
+body{
+    font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; /* black */
+}
+.sign{
+  background-color: var(--green);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+h1  {
+        
+        font-weight: 900; /* black */
+        font-size: 3rem;
+        line-height: 1.5;
+      }
+@media (max-width:991px){
+  .carousel-caption {
+    bottom: 88px!important;
+    padding-left: 8px!important;
+    padding-right: 8px!important;
+}
+}
+h2{
+    border: #ff4c68;
+    font-family: 'Ubuntu';
+    color: #fff;
+   text-align: center;     
+   padding-bottom: 1.5%;
+   padding-top: 1.5%;
+   background-color:#891A52;
+    }  
+h3{
+    
+}
+
+
+ 
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    
+    
+}
+
+#purenavbar{
+    padding: 0% 2%;
+    background-color:#891A52;
+}
+
+
+.navbar-brand{
+    color: #ffF;
+    padding-left: 1%;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    color: #fff;
+    font-size: 1.2rem;
+    padding-right: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100; 
+}
+
+@media (min-width:1025px){
+
+.nav-item:hover{
+    color: #000;
+    transform: scale(1.5);}
+
+}
+
+
+
+
+
+
+/* Testomonials */
+
+/* #testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    background-image: url(../images/USMimg.jpg);
+    color: #fff;
+   
+} */
+
+/* .testimonial-image{
+   
+    position: relative;
+    width: 100%;
+    margin: 20px;
+} */
+
+.first.carasoul{
+    background-image: url(../images/USMimg.jpg);
+}
+
+.carousel-item{
+  height: 100vh;
+  min-height: 300px;
+  
+
+  
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+}
+
+@media (min-width:1025px){
+    .carousel-item {max-height: 800px;}
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.3;
+}
+.carousel-caption{
+    bottom: 280px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h5{
+    font-size: 60px;
+}
+.carousel-caption p{
+    font-size: 18px;
+
+}
+.active{
+    height: 70%;
+}
+.slide-btn btn{
+
+    margin-top: 30px;
+}
+/* 
+TOP PICKS */
+
+#features{
+  background-color: aliceblue;
+    padding: 3% 15%;
+    
+}
+.features-box{
+    text-align:center;
+    padding:5%;
+}
+.icon{
+    color:#94A3B7;
+    margin-bottom:20px;
+}
+
+.icon:hover{
+    color: #891A52;
+    transform: scale(130%);
+    
+}
+
+
+@media (max-width: 1028px) {
+
+
+    .title{
+        text-align: center;
+    }
+}
+
+/* card */
+
+#Services{
+    padding: 0%;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.card-deck{
+    background-color: #94A3B7;
+}
+.ind-card-pad{
+   padding: 3% 4%;
+   background-color: aliceblue;
+}
+
+.card{
+    background-color: #f5f5b1;
+}
+
+.card:hover{
+  transform:scale(110%);
+}
+
+/* title */
+
+#title{
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+/* Title Image */
+.title-image{
+  width: 60%;
+  transform: rotate(0deg);
+}
+
+#press{
+  background-color:#ff4c68;
+  padding-bottom:2%;
+  text-align: center;
+}
+.press-logo{
+  width: 8%;
+  padding-right: 1%;
+}
+
+/* features */
+
+/* Download Button */
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+/* HOUSING AND DINNING */
+ 
+.housing{
+  background-color: aliceblue;
+}
+
+.housing-dining {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    
+  }
+
+  .housing-dining h2 {
+    font-size: 2em;
+    margin: 1em 0;
+    color: #3366cc;
+  }
+
+  .housing-dining p {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    max-width: 600px;
+    line-height: 1.5;
+  }
+
+  .housing-dining .button {
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 1em 0.5em;
+  }
+
+  .housing-dining .button-primary {
+    color: white!important;
+    background-color: var(--green);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .housing-dining .button-primary:hover {
+    background-color: #5588ee;
+  }
+
+  .housing-dining .button-secondary {
+    color: #3366cc;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .housing-dining .button-secondary:hover {
+    color: white;
+    background-color: #5588ee;
+  }
+
+  .housing-dining .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .housing-dining .button-group .button {
+    flex: 0 1 100%;
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .housing-dining .button-group .button {
+      flex: 0 1 200px;
+      width: auto;
+    }
+  }
+
+  .housing-dining .image {
+    margin: 2em 0;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+
+  /* CTA */
+#cta{
+  background: rgba(0,0,0,0.5) url("../images/USMBG.jpeg");
+  background-blend-mode: darken;
+  width: 100%;
+  height: 55vh;
+  background-size: cover;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+  
+}
+
+/* #cta::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:rgba(0, 0, 0, 0.6)
+} */
+
+.cta-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 900; 
+}
+
+/* OUR TEAM */
+
+.team{
+    
+    
+}
+.team-section {
+    text-align: center;
+    
+  }
+  
+  .team-member {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .team-member h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .team-member p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .team-section {
+    background-color: aliceblue; /* or use a background image: background-image: url('image.jpg'); */
+   
+  }
+  
+  .team-member {
+    display: inline-block;
+    margin: 0 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* adjust the values as desired */
+  }
+  .team-member:hover {
+    background-color: #E8E8E8; /* or use an animation: animation: pulse 0.5s ease-in-out; */
+  }
+
+  @keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+  }
+  
+  .team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5% 0%;
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* adjust the width as desired */
+    margin: 20px;
+  }
+  
+  @media (max-width: 768px) { /* adjust the width as desired */
+    .team-member {
+      width: 100%;
+      margin: 20px 0;
+    }
+  }
+  
+  .team-member {
+    transition: all 0.3s ease-in-out; /* adjust the duration and timing function as desired */
+  }
+  
+  .team-member:hover {
+    transform: scale(1.1); /* or use a different transition property, such as background-color */
+  }
+
+.slide-button{
+    background-color: grey;
+}
+.slide-button:hover{
+    
+    background-color: #ff4c68;
+}
+
+
+#footer{
+    text-align: center;
+}
+
+
+.social-icon{
+    margin: 20PX 10PX;
+    
+}
+.social-icon:hover{
+    transform: scale(2.5);
+}
+

@@ -1,0 +1,364 @@
+:root{
+  --main:#891A52;
+  --pink:#ff4c68;
+  --green:rgba(59, 128, 1, 1);
+  --blue:rgb(0,40,120);
+  --bg-light: #FAF9F6;
+  --pastel-3:rgba(255,208,192, 0.3);
+  --border-grey:#d8dee2;
+  --light-text: #A1A1A5;
+
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    
+    
+}
+
+#purenavbar{
+    padding: 0% 2%;
+    background-color:#891A52;
+}
+
+
+.navbar-brand{
+    color: #ffF;
+    padding-left: 1%;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    color: #fff;
+    font-size: 1.2rem;
+    padding-right: 0%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100; 
+}
+
+@media (min-width:1025px){
+
+.nav-item:hover{
+    color: #000;
+    transform: scale(1.5);}
+
+}
+
+
+#eat-drink-play {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    text-align: center;
+    padding: 30px;
+  }
+  
+  #house-rental {
+    background-color: #d9edf7;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    text-align: center;
+    padding: 30px;
+  }
+  
+  #second-hand-area {
+    background-color: #dff0d8;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    text-align: center;
+    padding: 30px;
+  }
+  
+  #lost-and-found {
+    background-color: #fcf8e3;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    text-align: center;
+    padding: 30px;
+  }
+  
+  #post-your-concerns {
+    background-color: #f2dede;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    text-align: center;
+    padding: 30px;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+/* EAT DRINK AND PLAY */
+#eat-drink-play #search-results .result {
+    width: 30%;
+    margin: 0 10px 20px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #eat-drink-play #search-results .result .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  #eat-drink-play #search-results .result .location {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  #eat-drink-play #search-results .result .rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  #eat-drink-play #search-results .result .rating .star {
+    font-size: 14px;
+    color: #FFD700;
+  }
+  
+  #eat-drink-play #search-results .result .rating .star.empty {
+    color: #ccc;
+  }
+  
+  #eat-drink-play #search-results .result .price {
+    font-size: 14px;
+    color: #888;
+  }
+
+/* Style form */
+#filter-form {
+    margin-bottom: 1em;
+    margin-top: 2rem;
+  }
+  
+  #filter-form label {
+    margin-right: 0.5em;
+  }
+  
+  #filter-form select,
+  #filter-form button {
+    font-size: 1em;
+    padding: 0.5em;
+  }
+  
+  /* Style search results */
+  .result {
+    border: 1px solid #891A52;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .result .name {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .result .location {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 0.5em;
+  }
+  
+  .result .rating {
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+  }
+  
+  .result .rating .star {
+    color: #ffc107;
+  }
+  
+  .result .rating .empty {
+    color: #ccc;
+  }
+  
+  .result .price {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 0.5em;
+  }
+
+  /* HOUSERENTAL */
+
+  .property {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .property .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .property .location {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .property .rent {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .property .bedrooms {
+    margin-bottom: 10px;
+  }
+  
+  .property .description {
+    margin-bottom: 10px;
+  }
+  
+  .property .image {
+    max-width: 100%;
+  }
+
+  /* SECOND HAND AREA */
+  #second-hand-area {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  #item-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    width: 25%;
+    padding: 10px;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .item h3 {
+    margin: 0;
+  }
+  
+  .item p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+
+/* Lost and found form */
+#lost-and-found-form {
+    margin-bottom: 20px;
+  }
+  
+  /* Lost and found items */
+  #lost-and-found-items {
+    margin-top: 20px;
+  }
+  
+  /* Lost and found item */
+  .lost-and-found-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .lost-and-found-item h4 {
+    margin-bottom: 5px;
+  }
+  
+  .lost-and-found-item .location {
+    margin-bottom: 10px;
+  }
+  
+  .lost-and-found-item .contact-info {
+    margin-bottom: 10px;
+  }
+  
+  .lost-and-found-item .claim-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .lost-and-found-item .return-item {
+    display: inline-block;
+  }
+
+
+  /* CONERNS */
+
+  #post-concern-section {
+  margin: 20px 0;
+}
+
+#post-concern-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-control{
+    background-color: #fff;
+}
+  /* FOOTER */
+
+#footer{
+    color: #fff;
+    background-color: #891A52;
+    
+    text-align: center;
+   
+}
+.social-icon{
+    margin: 20PX 10PX;
+    
+}
+.social-icon:hover{
+    transform: scale(2.5);
+}
+/* food-me */
+.food-me{
+  margin-top: 4rem;
+}
+.food-me .part1{
+  margin-top: 7rem;
+}
+.food-me .part1 h3{
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--blue);
+}
+.food-me .part1 button{
+  padding: 0.5rem 1rem;
+  background-color: var(--green);
+  color: white;
+  border-style: none;
+  border-radius: 2px;
+  margin-top: 1.5rem;
+}
+
+@media (max-width:991px) {
+  .food-me{
+    margin-top: 1rem;
+  }
+}
