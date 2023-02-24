@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Raleway', sans-serif!important;
+}
+
+:root{
+    --main:#891A52;
+    --pink:#ff4c68;
+    --green:rgba(59, 128, 1, 1);
+    --blue:rgb(0,40,120);
+    --bg-light: #FAF9F6;
+    --pastel-3:rgba(255,208,192, 0.3);
+    --border-grey:#d8dee2;
+    --light-text: #A1A1A5;
+
+}
+
+/* FOOTER */
+
+#footer{
+    color: #fff;
+    background-color: #891A52;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+.social-icon{
+    margin: 20PX 10PX;
+    
+}
+.social-icon:hover{
+    transform: scale(2.5);
+}
+/* nav  */
+.nav{
+    background-color: var(--main);
+    padding-top: 1.3rem;
+    padding-bottom:1rem;
+}
+.nav .logo{
+color: white;
+font-family: "Ubuntu";
+}
+a{
+    text-decoration: none!important;
+    color: inherit!important;
+}
+.nav .nav-items span{
+    margin-right: 2rem;
+    color: white;
+    line-height: 2;
+    padding-bottom: 0.5rem;
+}
+.nav .nav-items a:hover span{
+        color: white;
+       line-height: 2;
+        border-bottom: 2px solid white;
+}
+/* menu 2 */
+/* Side Pannel */
+/* The sidepanel menu */
+.sidepanel {
+    height: 900px;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    right: 0;
+    background-color: var(--footer); 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; 
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+    background-color: white;
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 14px 8px 12px 28px;
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--main);
+    display: block;
+    transition: 0.3s;
+  }
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 25px;
+    cursor: pointer;
+    background-color: var(--main);
+    color: var(--dark-blue)!important;
+    border: none;
+    position: absolute;
+    right: 2rem;
+    color: white!important;
+  }
+  nav .menu2{
+    display: none;
+  }
+/* header */
+header{
+    position: relative;
+}
+header img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;;
+}
+header h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+header .overlay{
+    position: absolute; 
+    bottom: 0;
+    background: rgba(0,0,0,0.8); /* Black see-through */
+    width: 100%;
+    height:100%;
+    transition: .5s ease;
+    opacity: 1;
+    color: white;
+    font-size: 20px;
+padding-top: 15rem;
+text-align: center;
+    font-size: 14px!important;
+}
+header .btn-top .btn1{
+margin-right: 1rem;
+padding: 1rem 2.5rem;
+}
+header .btn-top button{
+    border-style:none;
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: 500;
+    background-color: var(--green);
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+header .btn-top button:hover{
+    background-color: white;
+    color:var(--green);
+}
+/* main */
+main .sec1{
+    padding-top: 4rem;
+}
+main .sec1 .p1{
+    color: var(--main);
+}
+main .sec1 h2{
+font-weight: 600;
+margin-bottom: 3rem;
+color: var(--blue);
+}
+main .sec1 .card{
+    position: relative;
+    margin-bottom: 2rem;
+}
+main .sec1 .card:hover{
+    border: 2px solid #483773;
+    transition: all 0.9 ease;
+}
+main .sec1 .card .overlay{
+    position: absolute; 
+    bottom: 0;
+    background: rgba(0,0,0,0.4); /* Black see-through */
+    width: 100%;
+    height:100%;
+    transition: .5s ease;
+    opacity: 1;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px!important;
+    font-weight: 500;
+}
+/* section 2 */
+main .sec2 {
+    margin-top: 3rem;
+   padding-top: 3rem;
+    background-color: var(--pastel-3);
+    padding-bottom: 3rem;
+}
+main .sec2 .part1{
+    margin-top: 1rem;
+    padding-right: 3rem;
+}
+main .sec2 .part1 h3{
+    margin-bottom: 1.5rem;
+    color: var(--blue);
+    font-weight: 600;
+}
+main .sec2 .part1 .p1{
+    color: var(--green);
+    font-weight: 600!important;
+}
+main .sec2 .part1 button{
+    border-style:none;
+    padding: 0.8rem 3rem;
+    color: white;
+    font-weight: 500;
+    background-color: var(--green);
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+}
+main .sec2 .part1 button:hover{
+    background-color: var(--blue);
+}
+/* section 3*/
+main .sec3 {
+    padding-top: 5rem;
+    /* margin-top: 3rem; */
+    background-color: var(--bg-light);
+}
+main .sec3 .part2{
+    margin-top: 1rem;
+    padding-left: 3rem;
+}
+main .sec3 .part2 h3{
+    margin-bottom: 1.5rem;
+    color: var(--blue);
+    font-weight: 600;
+}
+main .sec3 .part2 .p1{
+    color: var(--green);
+    font-weight: 600!important;
+}
+main .sec3 .part2 button{
+    border-style:none;
+    padding: 0.8rem 3rem;
+    color: white;
+    font-weight: 500;
+    background-color: var(--green);
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+}
+main .sec3 .part2 button:hover{
+    background-color: var(--blue);
+}
+/* 991 */
+@media (max-width:991px){
+    header .overlay-update{
+        padding-top: 5rem!important;
+    }
+    #program header .overlay .p1 {
+        font-size: 1rem!important;
+    }
+.nav1{
+    display: none!important;
+}
+nav .menu2{
+    display: block!important;
+  }
+  main .sec2 .part1 button{
+    margin-bottom: 3rem;
+}
+main .sec2 .part1 {
+    text-align: center;
+}
+main .sec3 .part2 {
+    text-align: center;
+}
+#program header h1{
+    font-size: 2rem;
+}
+header img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+#program header .overlay .p1{
+    padding: 0.7rem 6rem!important;
+}
+}
+@media (max-width:767px){
+    #program header .overlay .p1{
+        padding: 0.7rem 2rem!important;
+    }
+    #exam main .sec1 .p1-exam {
+        padding: 1.5rem 0rem!important;
+    }
+    .sec2-exam p {
+        padding: 1rem 0rem!important;
+    }
+}
+
+@media (max-width:668px){
+    header h1{
+        font-size: 2.5rem;
+    }
+    header .overlay{
+    padding-top: 11rem;
+    }
+    header .btn-top .btn1{
+        padding: 1rem 1.3rem!important;
+        }
+        header .btn-top button{
+            padding: 1rem 1rem!important;
+        }
+        main .sec1 .card h5{
+            font-size:1rem!important
+        }
+}
+@media (max-width:500px){
+    .durat{
+        display: none;
+    }
+}
+@media (max-width:400px){
+    header h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    header .btn-top .btn1{
+        padding: 1rem 1rem!important;
+        }
+        header .btn-top button{
+            padding: 1rem 0.5rem!important;
+        }
+        main .sec1 .card h5{
+            font-size:0.7rem!important
+        }
+        #exam main .sec1 h3 {
+            font-size: 1.3rem!important;
+        }
+}
+@media (min-width:1200px){
+    #program header .overlay .p1{
+        padding: 0.7rem 18rem!important;
+    }
+}
+/* exams exchange */
+/* #exam header .overlay .p1{
+    font-size: 1.7rem;
+    padding: 0.7rem 1rem;
+} */
+#program header .overlay .p1{
+    font-size: 1.7rem;
+    padding: 0.7rem 10rem;
+}
+#exam header .overlay button, #program header .overlay button{
+    border-style: none;
+    padding: 0.8rem 3rem;
+    background-color: var(--green);
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+#exam header .overlay button:hover,#program header .overlay button:hover{
+    background-color: white;
+    color: var(--green);
+}
+#exam main .sec1{
+    padding-top: 5rem;
+}
+#exam main .sec1 h3{
+    color: var(--blue);
+    font-size: 2rem;
+}
+#exam main .sec1 .p1-exam{
+    padding: 1.5rem 5rem;
+ 
+}
+.sign{
+    background-color: var(--green);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+
+  .sign2{
+    background-color: var(--green);
+    padding: 1rem 1rem;
+    border-radius: 4px;
+  }
+
+#exam main .sec1  .inner{
+    padding: 2rem 0;
+    box-shadow: 0px 0px 2px 1px var(--border-grey)!important;
+    background-color: var(--bg-light);
+    border-radius: 5px;
+}
+#exam main .sec1  .inner:hover{
+    border: 1px solid var(--green);
+}
+#exam main .sec1  .inner i{
+    color: var(--green);
+    font-size:3rem;
+    margin-top: 1rem;
+}
+#exam main .sec1  .inner h4{
+    color: var(--green);
+    padding: 1.5rem 0;
+}
+#exam main .sec1  .inner p{
+    padding :0 0.5rem;
+}
+#exam main .sec1  .inner button{
+    background-color: var(--green);
+    color: white;
+    border-style: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+#exam main .sec1  .inner button:hover{
+   background-color: rgba(59, 128, 1, 0.5);
+   color: green;
+}
+.sec2-exam{
+    padding-top: 7rem;
+  
+}
+.sec2-exam h3{
+    color: var(--blue);
+    font-size: 2rem;
+}
+.sec2-exam p{
+    padding: 1rem 7rem;
+}
+.sec2-exam img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 4rem;
+}
+#program .sec1{
+    padding-top: 3rem;
+    background-color:var(--bg-light);
+}
+#program .sec1 h2{
+    font-size: 2.5rem;
+    color: var(--blue);
+    text-align: center;
+}
+#program .sec1 i{
+    color: var(--green);
+    padding-right: 1rem;
+}
+#program .sec1  .part3{
+    padding-left: 2rem;
+}
+#program .sec1  .part3,#program .sec1  .part1{
+padding-top: 1rem;
+}
+#program .sec1  img{
+    border-radius: 10px;
+}
+.share .part1{
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .share .part2{
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+  /* form */
+  /* #program .sec2-program{
+    background-color: rgb(209,237,217);
+  } */
+  #program .sec2 form input,
+  #program .sec2form textarea,
+  #program .sec2 form select
+ {
+  width: 90%;
+  border-radius: 0.7rem;
+  margin-top: 0.2rem;
+  padding: 0.3rem;
+}
+#program .sec2 form textarea,
+#program .sec2 .email input{
+width: 70%!important;
+}
+#program .sec2 form label {
+  margin-top: 1rem;
+}
+#program .sec2 form{
+  font-size: small!important;
+}
+.i-3 input{
+    padding: 0 2rem;
+}
+.i-1 select{
+    padding: 0.2rem 0!important;
+}
+#program .sec2-program{
+   padding-top: 5rem;
+}
+#program .sec2-program h1{
+    padding-bottom: 1rem ;
+    color: var(--blue);
+}
+.card-program {
+    padding: 2rem 0;
+    box-shadow: 0px 0px 2px 1px var(--border-grey)!important;
+    background-color: var(--bg-light);
+    border-radius: 5px;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+.card-program:hover{
+    border: 1px solid var(--main);
+}
+.card-program button{
+    border-style: none;
+    border-radius: 5px;
+    padding: 0.3rem 0.7rem;
+    color: white;
+    background-color: var(--main);
+   margin: 0.5rem 0.2rem;
+}
+.card-program p{
+    font-size:14px!important;
+    padding: 0 1rem;
+    color:var(--light-text);
+}
+.card-program h5{
+    color: var(--main);
+    padding: 0.5rem 0.5rem;
+}
+.cards-p{
+    margin-top: 3rem;
+}
